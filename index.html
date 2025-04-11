@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Field</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Scroll Animation -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">
+            <i class="fas fa-sparkles logo-icon"></i>
+            <span class="logo-text">🌿Farm Field</span>
+        </a>
+        
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="#hero-section" class="nav-link"><span>Home</span></a></li>
+            <li><a href="#analysis-section" class="nav-link"><span>Facts</span></a></li>
+            <li><a href="#Predictor" class="nav-link"><span>Predictor</span></a></li>
+            <li><a href="#analysis" class="nav-link"><span>Analysis</span></a></li>
+            <li class="dropdown">
+              <a href="#" class="nav-link"><span>Tools</span></a>
+              <ul class="dropdown-menu">
+                  <li><a href="#weather-section" class="dropdown-link">Weather Analysis</a></li>
+                  <li><a href="#price-prediction" class="dropdown-link">Price Analysis</a></li>
+                  <li><a href="#chartSection" class="dropdown-link">Seasonal Analysis</a></li>
+                  <li><a href="#tool4" class="dropdown-link">Tool 4</a></li>
+              </ul>
+          </li>
+          <li><a href="#gallery" class="nav-link" target=""><span>Gallery</span></a></li>
+          
+        </ul>
+    </nav>
+
+    <section class="hero-section" id="hero-section">
+        <div class="overlay"></div>
+        <img src="field2.jpg" alt="Cornfield Background" class="background-img" id="bg-image">
+      
+        <div class="glass-box" id="box">
+          <h1 class="hero-text">
+            The Crop Analysis<span class="cursor"></span>
+          </h1>
+        </div>
+      </section>
+
+      <!-- Facts -->
+      <section id="analysis-section" class="analysis-section">
+        <div class="analysis-bg"></div>
+      
+        <div class="analysis-content">
+          <h2 class="analysis-title" data-aos="fade-up">Crop Analysis Insights</h2>
+      
+          <div class="analysis-grid">
+            <div class="analysis-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="analysis-text">
+                <h3>Rainfall Dependency</h3>
+                <p>Over 60% of crops in India rely heavily on monsoon patterns, affecting yield consistency.</p>
+              </div>
+            </div>
+      
+            <div class="analysis-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="analysis-text">
+                <h3>Soil Types</h3>
+                <p>Black soil retains moisture and is ideal for cotton, while alluvial soil supports rice and wheat.</p>
+              </div>
+            </div>
+      
+            <div class="analysis-card" data-aos="fade-up" data-aos-delay="300">
+              <div class="analysis-text">
+                <h3>Water Usage</h3>
+                <p>Sugarcane uses 70% more water than wheat, making crop planning essential in arid regions.</p>
+              </div>
+            </div>
+      
+            <div class="analysis-card" data-aos="fade-up" data-aos-delay="400">
+              <div class="analysis-text">
+                <h3>Soil Moisture</h3>
+                <p>Optimal growth for rice requires 50–60% moisture. Sensors help maintain this for better yield.</p>
+              </div>
+            </div>
+      
+            <div class="analysis-card" data-aos="fade-up" data-aos-delay="500">
+              <div class="analysis-text">
+                <h3>Topsoil Erosion</h3>
+                <p>Over 24 billion tons of fertile topsoil are lost annually worldwide, reducing productivity.</p>
+              </div>
+            </div>
+      
+            <div class="analysis-card" data-aos="fade-up" data-aos-delay="600">
+              <div class="analysis-text">
+                <h3>Soil pH Levels</h3>
+                <p>Most crops thrive between pH 6.0–7.5. pH monitoring helps in nutrient absorption accuracy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Predictor">
+        <section class="animated-box-section" id="predictor">
+          <br><br><h2 class="section-title">Crop Predictor</h2>
+          <div class="three-d-box">
+              <img src="main.jpg" alt="Crop" class="box-image">
+              <a href="https://abhishek-nadagiri.github.io/croppredictor/" target="_blank"><button class="box-button">Click to predict</button></a></div>
+          </div>
+      </section>
+      </section>
+
+      <section class="soil-table-section" id="analysis">
+        <br><br><h2 class="soil-heading">Analyzed Soil Health Report</h2>
+        <div class="table-3d-wrapper">
+            <table class="soil-table-3d">
+                <thead>
+                    <tr>
+                        <th>Soil Type</th>
+                        <th>Moisture</th>
+                        <th>pH</th>
+                        <th>Rainfall</th>
+                        <th>Fertilizer</th>
+                        <th>Recommended Crops</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Loamy</td><td>High</td><td>6.5</td><td>Moderate</td><td>Low</td><td>Wheat, Rice</td></tr>
+                    <tr><td>Clay</td><td>Medium</td><td>7.0</td><td>High</td><td>Medium</td><td>Cotton, Soybean</td></tr>
+                    <tr><td>Sandy</td><td>Low</td><td>5.5</td><td>Low</td><td>High</td><td>Millet, Groundnut</td></tr>
+                    <tr><td>Silty</td><td>High</td><td>6.8</td><td>Moderate</td><td>Medium</td><td>Barley, Sugarcane</td></tr>
+                    <tr><td>Peaty</td><td>Very High</td><td>4.8</td><td>High</td><td>Low</td><td>Vegetables</td></tr>
+                    <tr><td>Chalky</td><td>Low</td><td>7.5</td><td>Low</td><td>Medium</td><td>Beet, Spinach</td></tr>
+                    <tr><td>Saline</td><td>Medium</td><td>8.0</td><td>Low</td><td>Low</td><td>Quinoa</td></tr>
+                    <tr><td>Red Soil</td><td>Medium</td><td>6.0</td><td>Medium</td><td>High</td><td>Pulses</td></tr>
+                    <tr><td>Black Soil</td><td>High</td><td>6.9</td><td>High</td><td>Medium</td><td>Cotton, Sorghum</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="weather-section" class="weather-section"><br><br>
+      <div class="weather-header">
+        <br><h2>🌦️ Weather & Crop Guide</h2><br><br>
+        <p>Powered by WeatherAPI – live conditions and best crops for you</p><br>
+      </div>
+    
+      <div class="weather-search">
+       <br><br> <input id="city" type="text" placeholder="Enter city..." />
+        <button onclick="getWeather()">Get Weather</button>
+      </div>
+    
+      <br><br><div class="weather-output"></div>
+    </section>
+
+    <section id="price-prediction" class="content">
+      <h2 class="section-title">📈 Predicted Market Prices</h2>
+      <div class="market-container" id="predicted-prices">
+        <!-- JS will inject prediction cards here -->
+      </div>
+    </section>
+
+    <section id="chartSection" class="chart-section season-summer">
+      <br><br><h2 style="margin-bottom: 20px;">🌾 Seasonal Crop Yield Visualization</h2>
+    
+      <label for="chartType">Chart Type:</label>
+      <select id="chartType" style="padding: 8px 12px; margin: 10px; border-radius: 8px;">
+        <option value="bar">Bar</option>
+        <option value="line">Line</option>
+        <option value="pie">Pie</option>
+      </select>
+    
+      <div style="margin: 20px 0;">
+        <label><input type="radio" name="season" value="summer" checked> Summer</label>
+        <label style="margin-left:15px;"><input type="radio" name="season" value="winter"> Winter</label>
+        <label style="margin-left:15px;"><input type="radio" name="season" value="rainy"> Rainy</label>
+        <label style="margin-left:15px;"><input type="radio" name="season" value="monsoon"> Monsoon</label>
+        <label style="margin-left:15px;"><input type="radio" name="season" value="spring"> Spring</label>
+      </div>
+    
+      <!-- Chart Container (No particles background anymore) -->
+      <div style="position: relative; width: 100%; max-width: 600px; margin: auto;">
+        <canvas id="myChart" style="border-radius: 20px;"></canvas>
+      </div>
+    
+      <style>
+        .chart-section {
+          position: relative;
+          padding: 40px 20px;
+          text-align: center;
+          border-radius: 20px;
+          transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+          z-index: 1;
+          min-height: 100vh;
+          color: #fff;
+        }
+    
+        .season-summer { background: linear-gradient(135deg, #d6860e, #e3af56, #e8e5dde2); }
+        .season-winter { background: linear-gradient(135deg, #74b9ff, #a29bfe, #dfe6e9); }
+        .season-rainy  { background: linear-gradient(135deg, #00cec9, #0984e3, #74b9ff); }
+        .season-monsoon{ background: linear-gradient(135deg, #55efc4, #00cec9, #81ecec); }
+        .season-spring { background: linear-gradient(135deg, #fab1a0, #ff7675, #fd79a8); }
+    
+        select, input[type="radio"] {
+          cursor: pointer;
+        }
+    
+        canvas {
+          background: rgba(255, 255, 255, 0.05);
+        }
+      </style>
+    
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script>
+        let currentSeason = "summer";
+        let currentType = "bar";
+    
+        const chartData = {
+          summer:  { labels: ["Maize", "Bajra", "Pulses", "Cotton", "Groundnut"], data: [65, 70, 55, 60, 75] },
+          winter:  { labels: ["Wheat", "Mustard", "Barley", "Gram", "Lentils"], data: [85, 75, 60, 70, 80] },
+          rainy:   { labels: ["Rice", "Sugarcane", "Jute", "Soybean", "Tur"], data: [90, 85, 78, 65, 72] },
+          monsoon: { labels: ["Paddy", "Maize", "Cotton", "Soybean", "Groundnut"], data: [88, 76, 70, 80, 68] },
+          spring:  { labels: ["Peas", "Cabbage", "Carrot", "Cauliflower", "Spinach"], data: [75, 80, 85, 70, 77] }
+        };
+    
+        const ctx = document.getElementById('myChart').getContext('2d');
+        let myChart;
+    
+        function renderChart(type, season) {
+          const { labels, data } = chartData[season];
+          if (myChart) myChart.destroy();
+          myChart = new Chart(ctx, {
+            type: type,
+            data: {
+              labels: labels,
+              datasets: [{
+                label: `Crop Yield in ${season.charAt(0).toUpperCase() + season.slice(1)}`,
+                data: data,
+                backgroundColor: ["#ff6384", "#36a2eb", "#ffce56", "#4bc0c0", "#9966ff"],
+                borderColor: "#fff",
+                borderWidth: 2
+              }]
+            },
+            options: {
+              responsive: true,
+              animation: {
+                duration: 1200,
+                easing: 'easeOutBounce'
+              },
+              plugins: {
+                legend: { labels: { color: '#fff' } }
+              },
+              scales: {
+                x: { ticks: { color: '#fff' } },
+                y: { ticks: { color: '#fff' } }
+              }
+            }
+          });
+        }
+    
+        function updateSeasonStyle(season) {
+          const section = document.getElementById("chartSection");
+          section.className = `chart-section season-${season}`;
+        }
+    
+        document.getElementById("chartType").addEventListener("change", (e) => {
+          currentType = e.target.value;
+          renderChart(currentType, currentSeason);
+        });
+    
+        document.querySelectorAll('input[name="season"]').forEach(radio => {
+          radio.addEventListener("change", (e) => {
+            currentSeason = e.target.value;
+            updateSeasonStyle(currentSeason);
+            renderChart(currentType, currentSeason);
+          });
+        });
+    
+        window.onload = () => {
+          renderChart(currentType, currentSeason);
+        };
+      </script>
+    </section>
+    
+    
+    
+      
+
+      <!-- Facts Script --> 
+      <!-- tsParticles for Crop Particles -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@3.0.4/tsparticles.bundle.min.js"></script>
+<div id="cropParticles"></div>
+<script>
+    // Hover effect with dramatic follow
+    document.querySelectorAll('.analysis-card').forEach(card => {
+      card.addEventListener('mousemove', e => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        card.style.setProperty('--x', `${x}px`);
+        card.style.setProperty('--y', `${y}px`);
+      });
+  
+      card.addEventListener('mouseleave', () => {
+        card.style.setProperty('--x', '50%');
+        card.style.setProperty('--y', '50%');
+      });
+    });
+  </script>
+
+
+<div id="cropParticles"></div>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@3.0.4/tsparticles.bundle.min.js"></script>
+<script>
+  tsParticles.load("cropParticles", {
+    fullScreen: { enable: true, zIndex: 0 },
+    particles: {
+      number: { value: 20 },
+      shape: {
+        type: "char",
+        character: {
+          value: ["🌾", "🌱", "🌽"],
+          font: "Verdana",
+          weight: "bold"
+        }
+      },
+      color: { value: "#00ff99" },
+      size: { value: 18 },
+      move: {
+        enable: true,
+        speed: 1,
+        random: true,
+        outModes: { default: "bounce" }
+      },
+      opacity: { value: 0.6 }
+    },
+    background: { color: "transparent" }
+  });
+</script>
+
+<script>
+  tsParticles.load("cropParticles", {
+    fullScreen: { enable: true, zIndex: 0 },
+    particles: {
+      number: { value: 20 },
+      shape: {
+        type: "char",
+        character: {
+          value: ["🌾", "🌱", "🌽"],
+          font: "Verdana",
+          weight: "bold"
+        }
+      },
+      color: { value: "#00ff99" },
+      size: { value: 18 },
+      move: {
+        enable: true,
+        speed: 1,
+        random: true,
+        outModes: { default: "bounce" }
+      },
+      opacity: { value: 0.6 }
+    },
+    background: { color: "transparent" }
+  });
+</script>
+<script>
+    function animateCounters() {
+      const counters = document.querySelectorAll('.counter');
+      counters.forEach(counter => {
+        const target = +counter.parentElement.getAttribute('data-count');
+        let count = 0;
+  
+        const update = () => {
+          const increment = target / 80;
+          if (count < target) {
+            count += increment;
+            counter.innerText = Math.floor(count);
+            requestAnimationFrame(update);
+          } else {
+            counter.innerText = target.toLocaleString();
+          }
+        };
+        update();
+      });
+    }
+  
+    function isInViewport(el) {
+      const rect = el.getBoundingClientRect();
+      return rect.top < window.innerHeight && rect.bottom > 0;
+    }
+  
+    let started = false;
+    window.addEventListener('scroll', () => {
+      const section = document.getElementById('facts-section');
+      if (!started && isInViewport(section)) {
+        animateCounters();
+        started = true;
+      }
+    });
+  </script>
+  <script>
+    document.querySelectorAll('.fact-card').forEach(card => {
+      card.addEventListener('mousemove', e => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        card.style.setProperty('--x', `${x}px`);
+        card.style.setProperty('--y', `${y}px`);
+      });
+    });
+  </script>
+<!-- Facts Script ENDS -->
+
+  <!-- Gallery section -->
+  <section id="gallery" class="carousel-gallery">
+    <h2 class="gallery-title" data-aos="fade-up">Gallery</h2>
+  
+    <div class="swiper myGallerySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="slide2.jpg" alt="Slide 1"></div>
+        <div class="swiper-slide"><img src="slide1.jpg" alt="Slide 2"></div>
+        <div class="swiper-slide"><img src="slide4.jpg" alt="Slide 3"></div>
+        <div class="swiper-slide"><img src="slide3.jpg" alt="Slide 4"></div>
+        <div class="swiper-slide"><img src="slide5.jpg" alt="Slide 5"></div>
+      </div>
+  
+      <!-- Navigation Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+  
+      <!-- Pagination Dots -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  
+  
+<!-- Gallery section ends   -->
+ <!-- Gallery script -->
+ <!-- Swiper.js CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper(".myGallerySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    effect: "slide", // 
+    speed: 900, 
+  });
+</script>
+<script>
+  const footer = document.querySelector('.footer');
+  window.addEventListener('scroll', () => {
+      const triggerPoint = window.innerHeight - 100;
+      if (footer.getBoundingClientRect().top < triggerPoint) {
+          footer.style.opacity = '1';
+          footer.style.transform = 'translateY(0)';
+      }
+  });
+</script>
+
+
+
+<!-- gallery script ends -->
+   
+  
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init({ once: true, duration: 1200 });</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const predictedCropPrices = [
+      { name: "Wheat", basePrice: 2200, seasonFactor: 1.05, trend: "+2.3%" },
+      { name: "Rice", basePrice: 2100, seasonFactor: 1.08, trend: "+3.7%" },
+      { name: "Maize", basePrice: 1700, seasonFactor: 0.95, trend: "-1.2%" },
+      { name: "Onion", basePrice: 2300, seasonFactor: 1.12, trend: "+5.1%" },
+      { name: "Potato", basePrice: 1800, seasonFactor: 0.92, trend: "-3.8%" },
+      { name: "Mustard", basePrice: 5400, seasonFactor: 1.04, trend: "+1.8%" }
+    ];
+  
+    const container = document.getElementById("predicted-prices");
+    let html = "";
+  
+    predictedCropPrices.forEach(crop => {
+      const predictedPrice = Math.round(crop.basePrice * crop.seasonFactor);
+      html += `
+        <div class="market-card glow-card">
+          <h3>${crop.name}</h3>
+          <p>💰 Predicted Price: ₹${predictedPrice}/quintal</p>
+          <p>📊 Trend: <span style="color: ${crop.trend.includes('+') ? 'limegreen' : 'crimson'}">${crop.trend}</span></p>
+          <p>📅 Forecast: Next 7 Days</p>
+        </div>
+      `;
+    });
+  
+    container.innerHTML = html;
+  });
+  </script>
+  
+<footer class="footer">
+  <div class="footer-signature">Design by <strong>team Shouryaanga</strong> ⚔️</div>
+</footer>
+
+
+</body>
+</html>
